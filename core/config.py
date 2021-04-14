@@ -16,15 +16,11 @@ __C.YOLO.MYCLASSES              = {
   "lpr": {
     "namesPath": "./data/classes/lpr_custom.names",
     "modelPath": "checkpoints/yolov4-custom-lpr-416"
+  },
+  "facemask": {
+    "namesPath": "./data/classes/facemask_custom.names",
+    "modelPath": "checkpoints/yolov4-custom-facemask-416"
   }
-  # "facemask": {
-  #   "namesPath": "./data/classes/facemask_custom.names",
-  #   "modelPath": "checkpoints/yolov4-custom-facemask-416"
-  # },
-  # "coronavirus": {
-  #   "namesPath": "./data/classes/coronavirus_custom.names",
-  #   "modelPath": "checkpoints/yolov4-custom-coronavirus-416"
-  # }
 }
 __C.YOLO.ANCHORS              = [12,16, 19,36, 40,28, 36,75, 76,55, 72,146, 142,110, 192,243, 459,401]
 __C.YOLO.ANCHORS_V3           = [10,13, 16,30, 33,23, 30,61, 62,45, 59,119, 116,90, 156,198, 373,326]
